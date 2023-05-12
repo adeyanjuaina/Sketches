@@ -1,0 +1,30 @@
+body{
+    background-color:  crimson;
+}
+h1{
+    background-color:  cornflowerblue;
+    color: white;
+}
+
+#show_sketch{
+    float: right;
+}
+p{
+    font-size: 30px;
+    color:lavender;
+}
+
+canvas{
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 5px solid orangered;
+    animation-name: bubblegum;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+ @keyframes bubblegum{
+    from{box-shadow: 1px 1px 38px lightgreen}
+    to{box-shadow:1px 1px 38px lightgoldenrodyellow}
+ }
+
+ 
